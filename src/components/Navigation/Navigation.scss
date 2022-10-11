@@ -1,0 +1,96 @@
+.header-menu {
+    display: flex;
+    width: inherit;
+    height: inherit;
+}
+
+.header-menu__leftSide {
+    width: 50%;
+    height: inherit;
+}
+
+.header-menu__leftSide nav {
+    display: flex;
+    justify-content: space-between;
+    .logo {
+        display: flex;
+        align-items: center;
+        a {
+            margin-bottom: 10px;
+            font-weight: 500;
+            font-size: 36px;
+            color: #000228;
+            :visited {
+                color: #000228;
+            }
+        }
+    }
+}
+
+.header-menu__leftSide nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 371px;
+    height: 40px;
+    li {
+        display: flex;
+        align-items: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: #4f5361;
+        a {
+            transition: 0.7s;
+        }
+        :visited {
+            color: #4f5361;
+        }
+        :hover {
+            color: #000228;
+        }
+    }
+}
+
+.header-menu__rightSide {
+    width: 50%;
+    height: inherit;
+}
+
+.header-menu__rightSide nav {
+    display: flex;
+    justify-content: end;
+}
+
+.header-menu__rightSide nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 169px;
+    height: 40px;
+    li {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.header-menu__signIn {
+    transition: 0.7s;
+    :hover {
+        opacity: 0.6;
+        transition: 0.7s;
+    }
+}
+
+.header-menu__signIn a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #0f1b4c;
+    transition: 0.7s;
+}
+
+.header-menu__signUp {
+    width: 98px;
+    height: 40px;
+}

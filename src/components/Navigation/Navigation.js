@@ -5,11 +5,11 @@ import {
     Route,
     Link
 } from "react-router-dom"
-import { Contact } from "../Contact/Contact";
-import { Fratures } from "../Fratures/Fratures";
-import { Home } from "../Home/Home";
-import { Listed } from "../Listed/Listed";
-import { Service } from "../Service/Service";
+import { Contact } from "../../pages/Contact/Contact";
+import { Fratures } from "../../pages/Fratures/Fratures";
+import { Home } from "../../pages/Home/Home";
+import { Listed } from "../../pages/Listed/Listed";
+import { Service } from "../../pages/Service/Service";
 
 export const Navigation = () => {
     return (

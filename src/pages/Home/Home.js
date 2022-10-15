@@ -1,6 +1,6 @@
 import './Home.scss'
 import React from "react"
-import { HeaderContent } from '../HeaderContent/HeaderContent'
+import { HeaderContent } from '../../components/HeaderContent/HeaderContent'
 
 export const Home = () => {
     return (

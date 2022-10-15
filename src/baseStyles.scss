@@ -6,6 +6,12 @@ li {
     list-style-type: none;
 }
 
+hr {
+    height: 0;
+    width: 100%;
+    border: 0px;
+}
+
 .container {
     padding: 0 165px 0 165px;
 }
@@ -24,10 +30,9 @@ li {
         line-height: 21px;
         color: #ffffff;
     }
-}
-
-.btn:hover {
-    cursor: pointer;
-    opacity: 0.8;
-    transition: 0.7s;
+    &:hover {
+        cursor: pointer;
+        opacity: 0.8;
+        transition: 0.7s;
+    }
 }

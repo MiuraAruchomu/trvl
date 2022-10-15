@@ -20,7 +20,7 @@
             font-weight: 500;
             font-size: 36px;
             color: #000228;
-            :visited {
+            &:visited {
                 color: #000228;
             }
         }
@@ -42,12 +42,12 @@
         color: #4f5361;
         a {
             transition: 0.7s;
-        }
-        :visited {
-            color: #4f5361;
-        }
-        :hover {
-            color: #000228;
+            &:visited {
+                color: #4f5361;
+            }
+            &:hover {
+                color: #000228;
+            }
         }
     }
 }
@@ -75,7 +75,7 @@
 
 .header-menu__signIn {
     transition: 0.7s;
-    :hover {
+    &:hover {
         opacity: 0.6;
         transition: 0.7s;
     }

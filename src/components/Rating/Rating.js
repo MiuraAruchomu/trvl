@@ -41,11 +41,11 @@ export const Rating = () => {
                 </div>
                 <div className="rating-bottom">
                     <div className='rating-bottom__clients'>
-                        <a href='#'><img src={require('./img/logoMeUndies.png')} /></a>
-                        <a href='#'><img src={require('./img/logoSlack.png')} /></a>
-                        <a href='#'><img src={require('./img/logoAmazon.png')} /></a>
-                        <a href='#'><img src={require('./img/logoWooCommerce.png')} /></a>
-                        <a href='#'><img src={require('./img/logoSitepoint.png')} /></a>
+                        <a href='https://www.meundies.com/' target='_blank'><img src={require('./img/logoMeUndies.png')} /></a>
+                        <a href='https://slack.com/' target='_blank'><img src={require('./img/logoSlack.png')} /></a>
+                        <a href='https://www.amazon.com/' target='_blank'><img src={require('./img/logoAmazon.png')} /></a>
+                        <a href='https://woocommerce.com/' target='_blank'><img src={require('./img/logoWooCommerce.png')} /></a>
+                        <a href='https://www.sitepoint.com/' target='_blank'><img src={require('./img/logoSitepoint.png')} /></a>
                     </div>
                 </div>
             </div>

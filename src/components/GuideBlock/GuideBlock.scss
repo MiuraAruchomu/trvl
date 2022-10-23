@@ -1,0 +1,17 @@
+.guide-block {
+    width: 133px;
+    height: 127px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    .guide-text {
+        margin-top: 20px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 22px;
+        text-align: center;
+        color: #3b3c45;
+    }
+}

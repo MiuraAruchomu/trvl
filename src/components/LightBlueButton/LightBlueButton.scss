@@ -1,0 +1,20 @@
+.light-blue-button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #0689ff;
+    transition: 0.7s;
+    svg {
+        margin-left: 8px;
+    }
+    &:hover {
+        color: #0061b5;
+        transition: 0.7s;
+        .fa-arrow-right-long {
+            color: #0061b5;
+            transition: 0.7s;
+        }
+    }
+}

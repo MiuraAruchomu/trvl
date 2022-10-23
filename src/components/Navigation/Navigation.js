@@ -10,11 +10,12 @@ import { Fratures } from "../../pages/Fratures/Fratures";
 import { Home } from "../../pages/Home/Home";
 import { Listed } from "../../pages/Listed/Listed";
 import { Service } from "../../pages/Service/Service";
+import { MainButton } from '../MainButton/MainButton';
 
 export const Navigation = () => {
     return (
         <>
-            <div className='header'>
+            <header>
                 <div className='container'>
                     <div className='header-menu'>
                         <div className='header-menu__leftSide'>
@@ -47,8 +48,8 @@ export const Navigation = () => {
                                     <li className='header-menu__signIn'>
                                         <Link to="/signin">Sign in</Link>
                                     </li>
-                                    <li className='header-menu__signUp btn'>
-                                        <Link to="/signup">Sign up</Link>
+                                    <li>
+                                        <MainButton path={'/signup'} name={'Sign up'} width={'98px'} height={'40px'} />
                                     </li>
                                 </ul>
                             </nav>
@@ -56,7 +57,7 @@ export const Navigation = () => {
 
                     </div>
                 </div>
-            </div>
+            </header>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/fratures" element={<Fratures />} />

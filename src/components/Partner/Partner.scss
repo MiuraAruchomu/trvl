@@ -1,0 +1,19 @@
+.link-partner {
+    width: 204px;
+    height: 91px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    &:hover {
+        box-shadow: 0px 45px 80px rgba(0, 0, 0, 0.04);
+        transition: 0.7s;
+    }
+    transition: 0.7s;
+}
+
+.amazon {
+    img {
+        margin-top: 14px;
+    }
+}
